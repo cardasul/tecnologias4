@@ -1,0 +1,376 @@
+header {
+	background: #FFDE7E;
+	columns: #000000;
+	;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+}
+
+h2 {
+	color: #000000;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+h4 {
+	color: #000000;
+}
+
+.main {
+	background: #f2f2f2;
+}
+
+.color1 {
+	background: #34495e;
+	color: #fff;
+}
+
+aside {
+	background: #c0392b;
+	color: #fff;
+}
+
+footer {
+	background: #16a085;
+	color: #fff;
+}
+
+.maincolor {
+	background: #FFDE7E;
+	color: #fff;
+}
+
+.fondo {
+	background: #E5E6FF;
+	color: #000000;
+	padding-top: 30px;
+	padding-bottom: auto;
+}
+
+.area_comida {
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-image: url(../imagenes/interfaz/fondo_comida.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.area_comida .seccion {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.imagen img {
+	width: 100%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.informacion {
+	padding-bottom: 15px;
+	padding-top: 14px;
+	background-image: url(../img/banner/burger_bg.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.section_title span {
+	color: #FFDE7E;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 18px;
+	display: block;
+	font-family: "Pacifico", cursive;
+}
+
+.user_card {
+	height: 400px;
+	width: 350px;
+	margin-top: auto;
+	margin-bottom: auto;
+	background: #FFDE7E;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+}
+
+.brand_logo_container {
+	position: absolute;
+	height: 170px;
+	width: 170px;
+	top: -75px;
+	border-radius: 50%;
+	background: #FFBC70;
+	padding: 10px;
+	text-align: center;
+}
+
+.brand_logo {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.container {
+	margin-top: 100px;
+}
+
+.form_container {
+	margin-top: 100px;
+}
+
+.login_btn {
+	width: 100%;
+	background: #FFBC70 !important;
+	color: white !important;
+}
+
+.login_btn:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.login_container {
+	padding: 0 2rem;
+}
+
+.input-group-text {
+	background: #FFBC70 !important;
+	color: white !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.area_clientes {
+	height: 700px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-right: 30px;
+	background: #fff;
+	color: #000000;
+}
+.area_admin {
+	padding-left: 30px;
+	padding-top: 50px;
+	padding-right: 30px;
+	background: #fff;
+	color: #000000;
+}
+
+.area_ncliente {
+	height: 1000px;
+	text-align: center;
+	padding-top: 30px;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	background: #E8BA66;
+	color: #000000;
+}
+
+.input_user, .input_pass:focus {
+	box-shadow: none !important;
+	outline: 0px !important;
+}
+
+.btn_nuevo_cliente {
+	background-color: transparent;
+	background-image: url(../imagenes/interfaz/salvar.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	background-position: center;
+	background-size: cover;
+	border: 0px;
+}
+.btn_buscar {
+	background-color: transparent;
+	background-image: url(../imagenes/interfaz/buscar.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-size: cover;
+	border: 0px;
+}
+
+.btn_venta {
+	background-color: transparent;
+	background-image: url(../imagenes/interfaz/venta.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	background-position: center;
+	background-size: cover;
+	border: 0px;
+}
+
+.btn_cesta {
+	width: 100%;
+	padding-top: 15px;
+	background-color: transparent;
+	background-image: url(../imagenes/interfaz/cesta.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 40px;
+	background-position: center;
+	background-size: cover;
+	border: 0px;
+}
+
+.tablas {
+	width: 100%;
+	padding-top: 30px;
+	padding-left: 90px;
+}
+
+.tabla2 {
+	width: 80%;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.imagenventa img {
+	width: 100%;
+	border-radius: 15px;
+	padding-left: 5px;
+}
+
+.cardventa {
+	padding-top: 15px;
+	background-color: #E0E0E0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	padding-bottom: 5px;
+	height: 210px;
+}
+
+.cardtexto {
+	padding-left: 10px;
+	color: 212121;
+}
+
+.footerdeuda {
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #E8BA66;
+	width: 100%;
+}
+
+.footerindex {
+	padding-left: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #E8BA66;
+	width: 100%;
+}
+
+.img_facebook {
+	border-radius: 5px;
+	width: 100%;
+	padding-top: 15px;
+	background-color: transparent;
+	background-image: url(../imagenes/interfaz/facebook.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	background-position: center;
+	background-size: cover;
+	border: 0px;
+}
+
+.img_insta {
+	border-radius: 5px;
+	width: 100%;
+	padding-top: 15px;
+	background-color: transparent;
+	background-image: url(../imagenes/interfaz/insta.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	background-position: center;
+	background-size: cover;
+	border: 0px;
+}
+.btn_foto{
+	border-radius: 5px;
+	width: 100%;
+	padding-top: 15px;
+	background-color: transparent;
+	background-image: url(../imagenes/interfaz/foto.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+	background-position: center;
+	background-size: cover;
+	border: 0px;
+}
+.btn_eliminar{
+	border-radius: 5px;
+	width: 100%;
+	padding-top: 15px;
+	background-color: transparent;
+	background-image: url(../imagenes/interfaz/eliminar.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-size: cover;
+	border: 0px;
+}
+
+.menu_index {
+	background-color: #E8D566;
+}
+
+.sobre_nosotros {
+	padding-bottom: 210px;
+	padding-top: 150px;
+	background-color: #E0E0E0;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.sobre_nosotros .about_info p {
+	font-size: 16px;
+	line-height: 28px;
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 0;
+	margin-bottom: 37px;
+}
+.sobre_nosotros .about_info span {
+	color: #FFBC70;
+}
+.sobre_nosotros .about_thumb2 img {
+	width: 100%;
+  }
+.sobre_nosotros .about_thumb2 .img_1 img {
+	width: 100%;
+}
+
+
+.sobre_nosotros .about_thumb2 .img_2 {
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+	right: -30px;
+	bottom: -60px;
+}
